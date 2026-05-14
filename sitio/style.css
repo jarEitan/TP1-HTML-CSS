@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+}
+
+/* Tipo de section: baner*/
+.banner{
+    display: inline-block;
+    width: 100%;
+}
+
+.banner h1{
+    color: white;
+    text-align: center;
+    padding: 10%;
+}
+
+/* Tipo de section: doble*/
+
+.doble{
+    display: inline-block;
+    width: 100%;
+}
+
+.doble img{
+    width: 60%;
+    margin: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: fit-content;
+}
+
+.doble h2{
+    padding-top: 5%;
+    margin: 2%;
+    height: auto;
+    text-align: center;
+}
+.doble p{
+    margin: 2%;
+    height: auto;
+    text-align: center;
+}
+
+.izquierda{
+    display: inline-block;
+    width: 49%;
+    float: left;
+}
+
+.izquierda img{
+    float: right;
+}
+
+.derecha{
+    display: inline-block;
+    width: 49%;
+    float: right;
+}
