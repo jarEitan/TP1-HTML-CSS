@@ -13,14 +13,15 @@ body{
 .h1{
     background-color: rgb(146, 146, 255);
     width: 100%;
-    display: inline-block; /*Fórmula para determinar contenedores*/
+    display: block; /*Fórmula para determinar contenedores*/
 }
 
 .fixed{
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1000;
 }
 
 .h1 img{
