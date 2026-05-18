@@ -5,7 +5,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: whitesmoke;
+    background-color: rgb(235, 235, 235);
 }
 
 /* Tipo de section: header */
@@ -16,8 +16,15 @@ body{
     display: inline-block; /*Fórmula para determinar contenedores*/
 }
 
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
 .h1 img{
-    width: 20%;
+    width: 15%;
     margin-left: 3%;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -27,7 +34,7 @@ body{
 .h1 nav{
     width: 50%;
     margin-left: 3%;
-    margin-top: 2%;
+    margin-top: 1.5%;
     margin-bottom: 1%;
     display: inline-block;
 }
@@ -53,7 +60,7 @@ body{
 
 .h1 div{
     width: 20%;
-    margin-top: 2%;
+    margin-top: 1.5%;
     margin-bottom: 1%;
     float: right;
 }
@@ -63,7 +70,8 @@ body{
     margin-left: 30%;
 }
 
-/* Tipo de section: baner*/
+/* Tipo de section: baner */
+
 .banner{
     display: inline-block;
     width: 100%;
@@ -80,9 +88,14 @@ body{
 .doble{
     display: inline-block;
     width: 90%;
-    margin-top: 2%;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     margin-left: 5%;
     margin-right: 5%;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 4px 4px 5px 4px rgba(0,0,0,0.5);
 }
 
 .doble img{
@@ -91,6 +104,8 @@ body{
     margin-left: 10%;
     margin-right: 10%;
     height: fit-content;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 0px #000000;
 }
 
 .doble h1{
@@ -128,7 +143,6 @@ body{
 .reseña{
     display: inline-block;
     width: 100%;
-    background-color: rgb(255, 255, 255);
 }
 
 .reseña div{
@@ -136,6 +150,7 @@ body{
     width: 38%;
     display: inline-block;
     border-radius: 30px;
+    box-shadow: 4px 4px 5px 4px rgba(0,0,0,0.5);
 }
 
 .floatIzquierda{
