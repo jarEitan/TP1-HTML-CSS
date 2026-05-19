@@ -11,13 +11,10 @@ body{
 /* Tipo de section: header */
 
 .h1{
-    background-color: rgb(146, 146, 255);
+    background-color: #13B7AB;
     width: 100%;
     display: inline-block; /*Fórmula para determinar contenedores*/
     box-shadow: 4px 4px 5px 4px rgba(0,0,0,0.5);
-}
-
-.h1 section{
 }
 
 .fixed{
@@ -183,23 +180,34 @@ body{
     margin-top: 5%;
     margin-left: 3%;
     margin-bottom: 5%;
-    float: left;
+    float: left;;
+}
+
+.circulo{
+    border-radius: 100%;
 }
 
 .estrellas{
-    width: 40% !important;
+    width: 50% !important;
     margin-top: 0% !important;
-    margin-left: 18% !important;
+    margin-left: 25% !important;
     margin-bottom: 3% !important;
     float: none !important;
 }
 
-.reseña div h2{
+.reseña div div{
+    width: 77%;
+    float: right;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.reseña div div h2{
     text-align: center;
     margin-top: 3%;
 }
 
-.reseña div p{
+.reseña div div p{
     text-align: center;
     margin: 5%;
 }
@@ -213,7 +221,7 @@ body{
     width: 87%;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: rgb(146, 146, 255);
+    background-color: #385CB0;
     border-radius: 50px;
     box-shadow: 4px 4px 5px 4px rgba(0,0,0,0.5);
 }
@@ -250,14 +258,14 @@ body{
     padding-left: 15%;
     padding-right: 15%;
     margin: 1.25%;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
     list-style: none;
     margin-left: 30%;
 }
 
 .publicidad a{
     color: white;
-    font-size: 150%;
+    font-size: 200%;
     text-decoration: none;
 }
 
@@ -271,7 +279,7 @@ footer {
         margin-top: 1%;
         padding-top: 1%;
         padding-bottom: 3%;
-        background-color: rgb(0, 0, 56);
+        background-color: #385CB0;
     }
     
     .columna {
