@@ -16,7 +16,6 @@ body{
     display: inline-block; /*Fórmula para determinar contenedores*/
     box-shadow: 4px 4px 5px 4px rgba(0,0,0,0.5);
 }
-
 .fixed{
     position: sticky;
     top: 0;
@@ -24,7 +23,6 @@ body{
     width: 100%;
     z-index: 1000;
 }
-
 .h1 img{
     width: 15%;
     margin-left: 3%;
@@ -32,7 +30,6 @@ body{
     margin-bottom: 1%;
     float: left;
 }
-
 .h1 nav{
     width: 50%;
     margin-left: 3%;
@@ -41,11 +38,9 @@ body{
     display: inline-block;
     box-shadow: none;
 }
-
 .h1 nav ul{
     box-shadow: none;
 }
-
 .h1 nav ul li{
     text-align: center;
     width: 18%;
@@ -59,24 +54,20 @@ body{
     list-style: none;
     float: left;
 }
-
 .h1 nav ul li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-
 .h1 div{
     width: 20%;
     margin-top: 1.5%;
     margin-bottom: 1%;
     float: right;
 }
-
 .h1 div h3{
     margin-top: 6%;
     margin-left: 30%;
 }
-
 /* Tipo de section: baner */
 
 .banner{
