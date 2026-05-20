@@ -387,3 +387,8 @@ footer {
     font-size: xx-large;
     margin-bottom: 3%;
 }
+
+.Presentacion p{
+    text-align: justify;
+    font-size: 130%;
+}
