@@ -11,12 +11,10 @@ body{
 /* Tipo de section: header */
 
 .h1{
-    background-color: #13B7AB;
+    background-color: #b9fffa;
     width: 100%;
     display: inline-block; /*Fórmula para determinar contenedores*/
     box-shadow: 4px 4px 5px 4px rgba(0,0,0,0.5);
-}
-.fixed{
     position: sticky;
     top: 0;
     left: 0;
@@ -42,17 +40,12 @@ body{
     box-shadow: none;
 }
 .h1 nav ul li{
-    text-align: center;
     width: 18%;
-    box-shadow: 5px 5px 5px grey;
-    border-radius: 10px;
-    background: #020024;
-    background: linear-gradient(145deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(9, 100, 121, 1) 100%);
     padding: 1.25%;
     margin: 1.25%;
     margin-bottom: 2%;
-    list-style: none;
     float: left;
+    font-size: 60%;
 }
 .h1 nav ul li a{
     text-decoration: none;
@@ -97,16 +90,6 @@ body{
     box-shadow: 4px 4px 5px 4px rgba(0,0,0,0.5);
 }
 
-.doble img{
-    width: 80%;
-    margin: 1%;
-    margin-left: 10%;
-    margin-right: 10%;
-    height: fit-content;
-    border-radius: 20px;
-    box-shadow: 0px 0px 15px 0px #000000;
-}
-
 .doble h1{
     padding-top: 5%;
     margin: 2%;
@@ -124,17 +107,17 @@ body{
 }
 
 .izquierda{
-    width: 49%;
+    width: 39%;
     float: left;
-}
-
-.izquierda img{
-    float: right;
+    margin-left: 8%;
+    border-radius: 20px;
 }
 
 .derecha{
-    width: 49%;
+    width: 39%;
     float: right;
+    margin-right: 8%;
+    border-radius: 20px;
 }
 
 /* Tipo de section: reseña*/
@@ -145,7 +128,7 @@ body{
 }
 
 .reseña div{
-    background-color: rgb(146, 146, 255);
+    background-color: #b9fffa;
     width: 38%;
     display: inline-block;
     border-radius: 30px;
@@ -212,7 +195,7 @@ body{
     width: 87%;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: #385CB0;
+    background-color: #348884;
     border-radius: 50px;
     box-shadow: 4px 4px 5px 4px rgba(0,0,0,0.5);
 }
@@ -238,133 +221,108 @@ body{
     font-size: 120%;
 }
 
-.publicidad li{
-    text-align: center;
-    width: 18%;
-    box-shadow: 5px 5px 5px grey;
-    border-radius: 10px;
-    background: #020024;
-    background: linear-gradient(145deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(9, 100, 121, 1) 100%);
-    padding: 1.25%;
-    padding-left: 15%;
-    padding-right: 15%;
-    margin: 1.25%;
-    margin-bottom: 4%;
-    list-style: none;
-    margin-left: 30%;
-}
-
-.publicidad a{
-    color: white;
-    font-size: 200%;
-    text-decoration: none;
-}
-
 /* Footer */
 
 footer {
-        display: inline-block;
-        padding-left: 5%;
-        padding-right: 5%;
-        width: 90%;
-        margin-top: 1%;
-        padding-top: 1%;
-        padding-bottom: 3%;
-        background-color: #385CB0;
-    }
-    
-    .columna {
-        float: left;
-        width: fit-content;
-        margin-right: 5%;
-        color: rgb(255, 255, 255);
-    }
-    
-    .columnaSmall {
-        width: 10%;
-    }
+    display: inline-block;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #348884;
+}
 
-    .columnaBig {
-        width: 20%;
-        
-    }
-
-    .columnaBig img {
-        width: 100%;
-    }
-    
-    .columna img {
-        background-color: rgb(255, 255, 255);
-        padding: 1%;
-        border-radius: 10px;
-    }
-    
-    .columna p {
-        margin-bottom: 2%;
-        margin-top: 1%;
-    }
-
-    .columna h2 {
-        margin-bottom: 5%;
-        margin-top: 1%;
-    }
-
-    .columnaRedes {
-       width: 6%;
-    }
-    .columnaRedes img{
-        width: 50%;
-        margin-right: 25%;
-        border-radius: 100%;
-        background-color: rgb(255, 255, 255);
-    }
-
-    .Planes{
-        display: inline-block;
-        width: 100%;
-    }
-
-    .Planes div{
-        background-color: white;
-        box-shadow: 4px 4px 5px 4px rgba(0,0,0,0.5);
-        float: left;
-        margin-left: 5%;
-        width: 22%;
-        padding: 1%;
-        padding-left: 4%;
-        border: 1px solid black;
-        border-radius: 20px;
-    }
-
-    .Planes h1{
-        margin-top: 4%;
-        margin-bottom: 4%;
-        font-size: 300%;
-    }
-
-    .Planes div ul{
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-
-    .Planes div ul li{
-        font-size: 160%;
-        margin-bottom: 2%;
-    }
-
-    .boton{
-    text-align: center;
-    box-shadow: 5px 5px 5px grey;
+.imagenGrande{
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
     border-radius: 10px;
-    background: #020024;
-    background: linear-gradient(145deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(9, 100, 121, 1) 100%);
-    padding: 5%;
-    padding-left: 15%;
-    padding-right: 15%;
-    margin: 1.25%;
-    margin-right: 10%;
+    width: 20%;
+    float: left;
+    margin-right: 5%;
+}
+
+.imagenGrande img{
+    width: 100%;
+}
+
+footer div {
+    float: left;
+    color: rgb(255, 255, 255);
+    margin-right: 5%;
+}
+
+footer div p {
+    margin-bottom: 2%;
+    margin-top: 1%;
+    width: 10%;
+}
+
+footer div h2 {
+    margin-bottom: 5%;
+    margin-top: 1%;
+}
+
+.columnaRedes {
+    width: 6%;
+}
+
+.columnaRedes img{
+    width: 50%;
+    margin-right: 25%;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.Planes{
+    display: inline-block;
+    width: 100%;
+}
+
+.Planes div{
+    background-color: white;
+    box-shadow: 4px 4px 5px 4px rgba(0,0,0,0.5);
+    float: left;
+    margin-left: 5%;
+    width: 22%;
+    padding: 1%;
+    padding-left: 4%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.Planes h1{
+    margin-top: 4%;
     margin-bottom: 4%;
-    list-style: none;
+    font-size: 300%;
+}
+
+.Planes div ul{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.Planes div ul li{
+    font-size: 160%;
+    margin-bottom: 2%;
+}
+
+.boton{
+text-align: center;
+box-shadow: 5px 5px 5px grey;
+border-radius: 10px;
+background: #020024;
+background: linear-gradient(145deg, #b9fffa 0%, #348884 35%, #3260b6 100%);
+padding: 5%;
+padding-left: 15%;
+padding-right: 15%;
+margin: 1.25%;
+margin-right: 10%;
+margin-bottom: 4%;
+list-style: none;
+border: 1px solid black;
 }
 
 .boton a{
@@ -372,6 +330,7 @@ footer {
     font-size: 200%;
     text-decoration: none;
 }
+
 .Presentacion{
     background-color: rgb(255, 255, 255);
     margin-left: 8%;
